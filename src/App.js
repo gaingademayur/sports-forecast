@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <Header />
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <NavBar />
         <Routes>
           <Route exact path="/addInventory" element={<AddInventory />} />
@@ -40,7 +40,7 @@ function App() {
           <Route exact path="/yearlyReport" element={<YearlyReport />} />
           <Route exact path="/warehouse" element={<Warehouse />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
     </div>
   );
